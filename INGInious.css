@@ -1,0 +1,56 @@
+body {
+  background-color: #3b3f42 !important
+}
+pre {
+  border: 1px solid #252527 !important;
+  color: #fff !important
+}
+/* Nav menu breadcrumb */
+.breadcrumb {
+  border-bottom: 1px solid #2f3032 !important; /* petite ligne en dessous de la barre en haut */
+  background-color: #323335 !important;
+}
+.breadcrumb .breadcrumb-item {
+  color: #fff !important; /* couleur de l'exercice du cours dans la barre en haut */
+}
+.breadcrumb .breadcrumb-item:before {
+  color: #fff !important; /* couleur des flèches entre le nom des cours */
+}
+.breadcrumb .breadcrumb-item a {
+  color: #fff !important; /* couleur du cours et du logo pour aller dans tous les cours */
+}
+.breadcrumb .breadcrumb-item a:hover {
+  color: #dddfe0 !important; /* couleur quand on passe sur le cours et le logo */
+}
+
+#inginious-sidebar {
+  border-right: 1px solid #333334 !important; /* couleur de la marge à gauche de la sidebar */
+  background-color:#323335 !important; /* couleur de la sidebar au vide */
+}
+#inginious-sidebar #inginious-sidebar-content {
+  background-color:#323335 !important; /* couleur des éléments de la sidebar */
+}
+#inginious-sidebar #inginious-sidebar-content .list-group-collapse .list-group-item {
+  border-left: 2px solid #252527 !important; /* couleur de la marge dans la sidebar dans le profil */
+}
+#inginious-sidebar #inginious-sidebar-content .list-group-collapse .list-group-item.list-group-item-action {
+  background-color: #323335 !important; /* couleur de la sidebar dans le profil */
+}
+#inginious-sidebar #inginious-sidebar-content .list-group-collapse .list-group-item.list-group-item-action:hover {
+  background-color: #3e3f41 !important; /* couleur du hover dans la sidebar dans le profil */
+}
+#inginious-sidebar-toggle {
+  background: #252527 !important; /* couleur du bouton sidebar */
+}
+#inginious-logo {
+  background: #252527 !important; /* couleur du logo ingi */
+}
+.cm-s-default.CodeMirror pre {
+  background-color: #323232 !important;
+  border: 0px !important;
+  font-family: 'Source Code Pro', monospace !important;
+}
+.cm-s-default {
+  background: #323232 !important;
+  color: #a9b7c6 !important;
+}

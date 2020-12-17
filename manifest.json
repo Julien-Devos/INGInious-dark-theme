@@ -1,0 +1,20 @@
+{
+	"manifest_version": 2,
+	"name": "INGInious dark Mode",
+	"description": "Make INGInious nice and DARK",
+	"version": "1.0",
+
+	"content_scripts": [
+			{
+		    "css": ["INGInious.css","bootstrap.min.css","codemirror.css"],
+		    "matches": ["*://inginious.info.ucl.ac.be/*"]
+	  	}
+	],
+	"icons": {
+    "16": "data/icon_16.png",
+    "32": "data/icon_32.png",
+    "48": "data/icon_48.png",
+    "64": "data/icon_64.png",
+    "128": "data/icon_128.png"
+  }
+}
