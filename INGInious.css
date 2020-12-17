@@ -45,12 +45,14 @@ pre {
 #inginious-logo {
   background: #252527 !important; /* couleur du logo ingi */
 }
-.cm-s-default.CodeMirror pre {
-  background-color: #323232 !important;
-  border: 0px !important;
-  font-family: 'Source Code Pro', monospace !important;
-}
 .cm-s-default {
   background: #323232 !important;
   color: #a9b7c6 !important;
+}
+.cm-s-default.CodeMirror pre {
+  border: 0px !important;
+}
+.cm-s-default .CodeMirror-activeline-background {
+  background: #00000000 !important;
+  border: 0px !important;
 }
