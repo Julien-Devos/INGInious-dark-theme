@@ -19,6 +19,10 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
   background-color:#323335 !important;
   border:1px solid rgba(0,0,0,.125) !important;
 }
+.list-group-item-action:hover, .list-group-item-action:focus {
+    color: #fff !important;
+    background-color: #2c2d2f !important;
+}
 .list-group-item:disabled {
   color:#888 !important;
   background-color:#eee !important
@@ -32,9 +36,6 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 .list-group-item-primary {
   color:#004961 !important;
   background-color:#b8dfec !important
-}
-.list-group-item:hover, .list-group-item:focus {
-    background-color: #2c2d2f !important;
 }
 .list-group-item-info.list-group-item-action:hover, .list-group-item-info.list-group-item-action:focus {
     color: #2f6473 !important;
@@ -147,11 +148,6 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
   color:#fff !important;
   background-color:#121212 !important;
   border-color:#121212 !important
-}
-.alert-info {
-    color: #2f6473 !important;
-    background-color: #def2f8 !important;
-    border-color: #d1edf6 !important;
 }
 .card {
   background-color: #252527 !important;
