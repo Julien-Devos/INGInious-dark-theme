@@ -6,7 +6,7 @@
 
 	"content_scripts": [
 			{
-		    "css": ["INGInious.css","bootstrap.min.css","codemirror.css"],
+		    "css": ["INGInious.css","bootstrap.css","codemirror.css"],
 		    "matches": ["*://inginious.info.ucl.ac.be/*"]
 	  	}
 	],
