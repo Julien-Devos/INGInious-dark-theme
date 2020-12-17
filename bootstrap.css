@@ -1,186 +1,57 @@
-body {
-  color: #fff !important;
+.CodeMirror-cursor {
+  border-left: 1px solid #fff !important;
 }
-h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
-  color: #fff !important
+.CodeMirror pre {
+  background: #b21f1f00 !important;
 }
-.list-group-item-action {
-  color:#fff !important; /* texte bouton à gauche (liste de cours et user) */
+/* DEFAULT THEME */
+
+.cm-s-default .cm-header {color: blue;}
+.cm-s-default .cm-quote {color: #090;}
+.cm-negative {color: #d44;}
+.cm-positive {color: #292;}
+.cm-header, .cm-strong {font-weight: bold;}
+.cm-em {font-style: italic;}
+.cm-link {text-decoration: underline;}
+.cm-strikethrough {text-decoration: line-through;}
+
+.cm-s-default .cm-keyword {color: #cc7832 !important;}
+.cm-s-default .cm-atom {color: #219;}
+.cm-s-default .cm-number {color: #6897bb !important;}
+.cm-s-default .cm-def {color: #ffc66d !important;}
+.cm-s-default .cm-variable,
+.cm-s-default .cm-punctuation,
+.cm-s-default .cm-property,
+.cm-s-default .cm-operator {}
+.cm-s-default .cm-variable-2 {color: #94558d !important;}
+.cm-s-default .cm-variable-3 {color: #085;}
+.cm-s-default .cm-comment {color: #808080 !important;}
+.cm-s-default .cm-string {color: #6A8759 !important;}
+.cm-s-default .cm-string-2 {color: #f50;}
+.cm-s-default .cm-meta {color: #555555;}
+.cm-s-default .cm-qualifier {color: #555555;}
+.cm-s-default .cm-builtin {color: #8888c6 !important;}
+.cm-s-default .cm-bracket {color: #997;}
+.cm-s-default .cm-tag {color: #170;}
+.cm-s-default .cm-attribute {color: #00c;}
+.cm-s-default .cm-hr {color: #999;}
+.cm-s-default .cm-link {color: #00c;}
+
+.cm-s-default .cm-error {color: #f00;}
+.cm-invalidchar {color: #f00;}
+
+.CodeMirror-composing { border-bottom: 2px solid; }
+
+.CodeMirror-focused div.CodeMirror-cursors {
+  visibility: visible !important;
 }
-.list-group-item-action:focus {
-  color:#fff !important; /* texte bouton à gauche (liste de cours et user) */
-  background-color:#3e3f41 !important
-}
-.list-group-item-action:active {
-  color:#fff !important; /* texte bouton à gauche (liste de cours et user) quand on clique*/
-  background-color:#3e3f41 !important
-}
-.list-group-item {
-  background-color:#323335 !important;
-  border:1px solid rgba(0,0,0,.125) !important;
-}
-.list-group-item-action:hover, .list-group-item-action:focus {
-    color: #fff !important;
-    background-color: #2c2d2f !important;
-}
-.list-group-item:disabled {
-  color:#888 !important;
-  background-color:#eee !important
-}
-.list-group-item.active {
-  z-index:2;
-  color:#fff !important;
-  background-color:#008cba !important;
-  border-color:#008cba !important
-}
-.list-group-item-primary {
-  color:#004961 !important;
-  background-color:#b8dfec !important
-}
-.list-group-item-info.list-group-item-action:hover, .list-group-item-info.list-group-item-action:focus {
-    color: #2f6473 !important;
-    background-color: #8aa6af !important;
-}
-.list-group-item-primary.list-group-item-action:focus {
-  color:#004961 !important;
-  background-color:#a4d6e7 !important
-}
-.list-group-item-primary.list-group-item-action.active {
-  color:#fff !important;
-  background-color:#004961 !important;
-  border-color:#004961 !important
-}
-.list-group-item-secondary {
-  color:#7c7c7c !important;
-  background-color:#fafafa !important
-}
-.list-group-item-secondary.list-group-item-action:focus {
-  color:#7c7c7c !important;
-  background-color:#ededed !important
-}
-.list-group-item-secondary.list-group-item-action.active {
-  color:#fff !important;
-  background-color:#7c7c7c !important;
-  border-color:#7c7c7c !important
-}
-.list-group-item-success {
-  color:#235937 !important;
-  background-color:#77c79f !important
-}
-.list-group-item-success.list-group-item-action:focus {
-  color:#235937 !important;
-  background-color:#b8e0c7 !important
-}
-.list-group-item-success.list-group-item-action.active {
-  color:#fff !important;
-  background-color:#235937 !important;
-  border-color:#235937 !important
-}
-.list-group-item-success.list-group-item-action:hover, .list-group-item-success.list-group-item-action:focus {
-    color: #235937 !important;
-    background-color: #70c199 !important;
-}
-.list-group-item-info {
-  color:#2f6473 !important;
-  background-color:#94b2bb !important
-}
-.list-group-item-info.list-group-item-action:focus {
-  color:#2f6473 !important;
-  background-color:#8aa6af !important
-}
-.list-group-item-info.list-group-item-action.active {
-  color:#fff !important;
-  background-color:#8aa6af !important;
-  border-color:#8aa6af !important
- }
-.list-group-item-warning {
-  color:#794b01 !important;
-  background-color:#f9e0b8 !important
-}
-.list-group-item-warning.list-group-item-action:focus {
-  color:#794b01 !important;
-  background-color:#f7d6a0 !important
-}
-.list-group-item-warning.list-group-item-action.active {
-  color:#fff !important;
-  background-color:#794b01 !important;
-  border-color:#794b01 !important
-}
-.list-group-item-danger {
-  color:#7d2213 !important;
-  background-color:#ea7b76 !important
-}
-.list-group-item-danger.list-group-item-action:focus {
-  color:#7d2213 !important;
-  background-color:#f9b5aa !important
-}
-.list-group-item-danger.list-group-item-action:hover, .list-group-item-danger.list-group-item-action:focus {
-    color: #7d2213 !important;
-    background-color: #e0706c !important;
-}
-.list-group-item-danger.list-group-item-action.active {
-  color:#fff !important;
-  background-color:#7d2213 !important;
-  border-color:#7d2213 !important
-}
-.list-group-item-light {
-  color:#7c7c7c !important;
-  background-color:#fafafa !important
-}
-.list-group-item-light.list-group-item-action:focus {
-  color:#7c7c7c !important;
-  background-color:#ededed !important
-}
-.list-group-item-light.list-group-item-action.active {
-  color:#fff !important;
-  background-color:#7c7c7c !important;
-  border-color:#7c7c7c !important
-}
-.list-group-item-dark {
-  color:#121212 !important;
-  background-color:#c1c1c1 !important
-}
-.list-group-item-dark.list-group-item-action:focus {
-  color:#121212 !important;
-  background-color:#b4b4b4 !important
-}
-.list-group-item-dark.list-group-item-action.active {
-  color:#fff !important;
-  background-color:#121212 !important;
-  border-color:#121212 !important
-}
-.card {
-  background-color: #252527 !important;
-  border:1px solid rgba(0,0,0,.125) !important;
-}
-.card-body {
-    background-color: #2b2b2b !important; /* #3e3f41 */ /* couleur de fond de la zone autour de la zone de code */
-}
-.card-header {
-  background-color: #252527 !important;
-}
-.form-control {
-  color:#fff !important;
-  background-color:#3b3f42 !important;
-  border:1px solid #323335 !important;
-}
-.table th,.table td {
-  border-top:1px solid #2f3032 !important
-}
-.btn-block {
-  background-color: #252527 !important;
-}
-.btn-lg, .btn-group-lg>.btn {
-  color: #fff !important;
-}
-.card.card-body.bg-light {
-  background-color: #3b3f42 !important;
-  border:4px solid #323335 !important;
-}
-.alert-warning, .alert-warning>th, .alert-warning>td {
-    border: 0px !important;
-}
-.btn-secondary {
-    color: #fff !important;
-    border: 0px !important;
-}
+
+/* Default styles for common addons */
+
+div.CodeMirror span.CodeMirror-matchingbracket {color: #ffe72f;}
+div.CodeMirror span.CodeMirror-nonmatchingbracket {color: #f22;}
+.CodeMirror-selected { background: #24488f !important; }
+.CodeMirror-focused .CodeMirror-selected { background: #214283 !important; }
+.CodeMirror-crosshair { cursor: crosshair; }
+.CodeMirror-line::selection, .CodeMirror-line > span::selection, .CodeMirror-line > span > span::selection { background: #214283 !important; }
+.CodeMirror-line::-moz-selection, .CodeMirror-line > span::-moz-selection, .CodeMirror-line > span > span::-moz-selection { background: #214283 !important; }
