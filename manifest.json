@@ -7,7 +7,7 @@
 	"content_scripts": [
 			{
 		    "css": ["INGInious.css","bootstrap.css","codemirror.css"],
-		    "matches": ["*://inginious.info.ucl.ac.be/*"]
+		    "matches": ["*://inginious.info.ucl.ac.be/*","*://inginious.org/*"]
 	  	}
 	],
 	"icons": {
