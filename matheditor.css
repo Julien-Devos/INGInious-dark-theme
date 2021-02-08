@@ -1,0 +1,28 @@
+
+div[class^="mq-editable-field"]{
+    background: #333 !important;
+    border: 0px !important;
+    border-color: #333 !important;
+}
+div[class^="matheditor-toolbar-"] {
+    border: 1px solid #252527 !important;
+    background: #333 !important;
+}
+div[class^="matheditor-wrapper-"] ul[class^="tabs-"] {
+    border-bottom: 1px solid #252527 !important;
+}
+div[class^="matheditor-wrapper-"] li.current {
+    background: #2B2B2B !important;
+    color: #fff !important;
+}
+.mq-editable-field .mq-cursor {
+  border-left: 1px solid #fff !important;
+}
+.mq-math-mode .mq-empty.mq-root-block {
+    background: transparent !important;
+    border: 0px !important;
+}
+.mq-math-mode .mq-empty {
+    border: 1px solid #fff !important;
+    background: transparent !important;
+}
