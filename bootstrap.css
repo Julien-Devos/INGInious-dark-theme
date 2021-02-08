@@ -167,6 +167,9 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 .table th,.table td {
   border-top:1px solid #2f3032 !important
 }
+.table-bordered td {
+    border: 1px solid #252527 !important;
+}
 .btn-block {
   background-color: #252527 !important;
 }
@@ -182,6 +185,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 }
 .btn-secondary {
     color: #fff !important;
+    background-color: #333 !important;
     border: 0px !important;
 }
 .modal-header {
