@@ -56,3 +56,6 @@ pre {
   background: #00000000 !important;
   border: 0px !important;
 }
+.CodeMirror, #edit_course_form .CodeMirror {
+    border: 1px solid #2c2d2e !important;
+}
