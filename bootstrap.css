@@ -197,3 +197,6 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 .modal-footer {
     border-top: 1px solid #2c2d2e !important;
 }
+.config.card-body.bg-light {
+    background-color: #333 !important;
+}
